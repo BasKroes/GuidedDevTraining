@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "9590e790-bed7-4cac-a62a-e4b2b900571e",
+    "Name": "AtnProcess_6440272",
+    "ModifiedOnUtc": "\/Date(1715889852000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Business process 1",
+    "DependsOn": []
+  }
+}
