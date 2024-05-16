@@ -3,9 +3,16 @@
     "UId": "9167f60d-66b9-f4e9-354b-1db7ac06103a",
     "Name": "DevClassic",
     "Type": 1,
-    "ModifiedOnUtc": "\/Date(1715889757000)\/",
+    "ModifiedOnUtc": "\/Date(1715892898000)\/",
     "Maintainer": "Customer",
     "ProjectPath": "Files/DevClassic.csproj",
-    "DependsOn": []
+    "DependsOn": [
+      {
+        "UId": "3a71e376-9ac3-3049-c62b-9c43b9abe054",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCoreBase",
+        "Type": 1
+      }
+    ]
   }
 }
