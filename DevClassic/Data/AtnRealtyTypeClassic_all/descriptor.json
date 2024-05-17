@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "30d274de-2d13-3257-a8f9-996da8419565",
     "Name": "AtnRealtyTypeClassic_all",
-    "ModifiedOnUtc": "\/Date(1715894352000)\/",
+    "ModifiedOnUtc": "\/Date(1715894624000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "e6cbf871-43ea-44a6-9465-36b6b72e5033",
@@ -17,13 +17,6 @@
         "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
       },
       {
-        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
-        "IsForceUpdate": false,
-        "IsKey": true,
-        "ColumnName": "Id",
-        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
-      },
-      {
         "ColumnUId": "0e15e867-6a5b-4918-89f2-f0fd600eb482",
         "IsForceUpdate": true,
         "IsKey": false,
@@ -36,6 +29,13 @@
         "IsKey": false,
         "ColumnName": "Description",
         "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
       }
     ]
   }
