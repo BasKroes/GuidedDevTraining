@@ -1,5 +1,13 @@
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/DevClassic/Schemas/Account/Account.cs" Condition="Exists('$(PkgPath)/DevClassic/Schemas/Account/Account.cs')" />
+		<Compile Include="$(PkgPath)/DevClassic/Schemas/AtnRealtyClassic/AtnRealtyClassic.cs" Condition="Exists('$(PkgPath)/DevClassic/Schemas/AtnRealtyClassic/AtnRealtyClassic.cs')" />
+		<Compile Include="$(PkgPath)/DevClassic/Schemas/AtnRealtyClassicFile/AtnRealtyClassicFile.cs" Condition="Exists('$(PkgPath)/DevClassic/Schemas/AtnRealtyClassicFile/AtnRealtyClassicFile.cs')" />
+		<Compile Include="$(PkgPath)/DevClassic/Schemas/AtnRealtyClassicFolder/AtnRealtyClassicFolder.cs" Condition="Exists('$(PkgPath)/DevClassic/Schemas/AtnRealtyClassicFolder/AtnRealtyClassicFolder.cs')" />
+		<Compile Include="$(PkgPath)/DevClassic/Schemas/AtnRealtyClassicInFolder/AtnRealtyClassicInFolder.cs" Condition="Exists('$(PkgPath)/DevClassic/Schemas/AtnRealtyClassicInFolder/AtnRealtyClassicInFolder.cs')" />
+		<Compile Include="$(PkgPath)/DevClassic/Schemas/AtnRealtyClassicInTag/AtnRealtyClassicInTag.cs" Condition="Exists('$(PkgPath)/DevClassic/Schemas/AtnRealtyClassicInTag/AtnRealtyClassicInTag.cs')" />
+		<Compile Include="$(PkgPath)/DevClassic/Schemas/AtnRealtyClassicTag/AtnRealtyClassicTag.cs" Condition="Exists('$(PkgPath)/DevClassic/Schemas/AtnRealtyClassicTag/AtnRealtyClassicTag.cs')" />
+		<Compile Include="$(PkgPath)/DevClassic/Schemas/AtnRealtyOfferTypeClassic/AtnRealtyOfferTypeClassic.cs" Condition="Exists('$(PkgPath)/DevClassic/Schemas/AtnRealtyOfferTypeClassic/AtnRealtyOfferTypeClassic.cs')" />
 		<Compile Include="$(PkgPath)/DevClassic/Schemas/AtnRealtyTypeClassic/AtnRealtyTypeClassic.cs" Condition="Exists('$(PkgPath)/DevClassic/Schemas/AtnRealtyTypeClassic/AtnRealtyTypeClassic.cs')" />
 		<Compile Include="$(PkgPath)/DevClassic/Schemas/AtnVwContactAgeDays/AtnVwContactAgeDays.cs" Condition="Exists('$(PkgPath)/DevClassic/Schemas/AtnVwContactAgeDays/AtnVwContactAgeDays.cs')" />
 	</ItemGroup>

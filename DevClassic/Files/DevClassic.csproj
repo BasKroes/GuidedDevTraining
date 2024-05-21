@@ -311,8 +311,18 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup Label="Package References">
+		<Reference Include="AtnRealty">
+			<HintPath>$(RelativePkgFolderPath)/AtnRealty/$(StandalonePackageAssemblyPath)/AtnRealty.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="CrtCoreBase">
 			<HintPath>$(RelativePkgFolderPath)/CrtCoreBase/$(StandalonePackageAssemblyPath)/CrtCoreBase.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtCustomer360App">
+			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360App/$(StandalonePackageAssemblyPath)/CrtCustomer360App.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -461,11 +471,6 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCustomer360App">
-			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360App/$(StandalonePackageAssemblyPath)/CrtCustomer360App.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtCall">
 			<HintPath>$(RelativePkgFolderPath)/CrtCall/$(StandalonePackageAssemblyPath)/CrtCall.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -484,6 +489,14 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup Label="Entity Files">
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/Account/Account.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/Account/Account.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyClassic/AtnRealtyClassic.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyClassic/AtnRealtyClassic.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyClassicFile/AtnRealtyClassicFile.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyClassicFile/AtnRealtyClassicFile.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyClassicFolder/AtnRealtyClassicFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyClassicFolder/AtnRealtyClassicFolder.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyClassicInFolder/AtnRealtyClassicInFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyClassicInFolder/AtnRealtyClassicInFolder.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyClassicInTag/AtnRealtyClassicInTag.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyClassicInTag/AtnRealtyClassicInTag.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyClassicTag/AtnRealtyClassicTag.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyClassicTag/AtnRealtyClassicTag.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyOfferTypeClassic/AtnRealtyOfferTypeClassic.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyOfferTypeClassic/AtnRealtyOfferTypeClassic.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyTypeClassic/AtnRealtyTypeClassic.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/AtnRealtyTypeClassic/AtnRealtyTypeClassic.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DevClassic/Schemas/AtnVwContactAgeDays/AtnVwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/DevClassic/Schemas/AtnVwContactAgeDays/AtnVwContactAgeDays.cs')" />
 	</ItemGroup>

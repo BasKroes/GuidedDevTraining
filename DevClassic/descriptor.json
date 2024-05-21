@@ -8,6 +8,17 @@
     "ProjectPath": "Files/DevClassic.csproj",
     "DependsOn": [
       {
+        "UId": "0d216ec9-abca-4543-9a39-60e94fb18257",
+        "Name": "AtnRealty",
+        "Type": 1
+      },
+      {
+        "UId": "2ecba2bd-b810-47a5-a1b1-08c888529d6c",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCustomer360App",
+        "Type": 1
+      },
+      {
         "UId": "3a71e376-9ac3-3049-c62b-9c43b9abe054",
         "PackageVersion": "7.8.0",
         "Name": "CrtCoreBase",

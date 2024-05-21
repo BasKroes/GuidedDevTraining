@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "389021ce-94f3-4a1a-9873-060bd9cf1207",
+    "Name": "AtnRealtyClassicFile",
+    "ModifiedOnUtc": "\/Date(1716315853000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Realty Classic attachment",
+    "DependsOn": []
+  }
+}

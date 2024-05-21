@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ed9d2eb0-6b33-411e-926d-6281d744e1d2",
+    "Name": "AtnRealtyOfferTypeClassic",
+    "ModifiedOnUtc": "\/Date(1716316283000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Realty offer type (ClassicUI)",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1b828222-6474-4a7f-b283-1f1515b5c841",
+    "Name": "AtnRealtyClassicInTag",
+    "ModifiedOnUtc": "\/Date(1716315889000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Realty Classic section record tag",
+    "DependsOn": []
+  }
+}

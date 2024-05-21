@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Realty Classic" />
+			<Item Name="Columns.AtnArea.Caption" Value="Area" />
+			<Item Name="Columns.AtnComment.Caption" Value="Comment" />
+			<Item Name="Columns.AtnName.Caption" Value="Name" />
+			<Item Name="Columns.AtnNotes.Caption" Value="Notes" />
+			<Item Name="Columns.AtnOfferType.Caption" Value="Offer type" />
+			<Item Name="Columns.AtnPriceUSD.Caption" Value="Price, USD" />
+			<Item Name="Columns.AtnType.Caption" Value="Type" />
+		</Items>
+	</Group>
+</Resources>

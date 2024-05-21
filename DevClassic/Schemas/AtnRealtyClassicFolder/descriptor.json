@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "e74d8914-2254-4e06-9838-a2c6cfddc013",
+    "Name": "AtnRealtyClassicFolder",
+    "ModifiedOnUtc": "\/Date(1716315864000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Realty Classic folder",
+    "DependsOn": []
+  }
+}
