@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Realty visit" />
+			<Item Name="Columns.AtnComment.Caption" Value="Comment" />
+			<Item Name="Columns.AtnParentRealty.Caption" Value="Parent realty" />
+			<Item Name="Columns.AtnPotentialCustomer.Caption" Value="Potential customer" />
+			<Item Name="Columns.AtnVisitDateTime.Caption" Value="Visit date and time" />
+		</Items>
+	</Group>
+</Resources>

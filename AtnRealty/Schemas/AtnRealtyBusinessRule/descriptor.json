@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "3a160c01-313f-499b-a052-af5b4db869ae",
+    "Name": "AtnRealtyBusinessRule",
+    "ModifiedOnUtc": "\/Date(1716198571000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Realty (Business rules)",
+    "DependsOn": []
+  }
+}

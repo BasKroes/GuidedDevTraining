@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "580934b9-0fd2-49f7-89fb-25fe6b9592d1",
+    "Name": "AtnRealty_Detail",
+    "ModifiedOnUtc": "\/Date(1716064177000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Realty detail",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "3c5d09f7-e33a-44b4-9bc6-342299ced2dd",
+    "Name": "AtnRealtyVisitPage",
+    "ModifiedOnUtc": "\/Date(1716309076000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Realty visit form page",
+    "DependsOn": []
+  }
+}

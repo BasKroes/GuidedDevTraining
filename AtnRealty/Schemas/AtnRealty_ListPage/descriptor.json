@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "66875399-d109-4c8a-ac43-b2eca31762ee",
+    "Name": "AtnRealty_ListPage",
+    "ModifiedOnUtc": "\/Date(1716066114000)\/",
+    "Parent": {
+      "UId": "3334b6c0-c8ab-4b59-a367-0c9182102552",
+      "Name": "ListPageV2Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Realty list page",
+    "DependsOn": []
+  }
+}
