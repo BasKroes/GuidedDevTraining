@@ -5,21 +5,20 @@ namespace Terrasoft.Configuration
     using Terrasoft.Core.Entities;
     using Terrasoft.Core.Entities.Events;
   
-    [EntityEventListener(SchemaName = "UsrRealty")]
+    [EntityEventListener(SchemaName = "AtnRealty")]
     public class RealtyEntityEventListener : BaseEntityEventListener
     {
         public override void OnSaving(object sender, EntityBeforeEventArgs e)
         {
             base.OnSaving(sender, e);
             Entity realty = (Entity)sender;
-            decimal price = realty.GetTypedColumnValue<decimal>("UsrPriceUSD");
+            decimal price = realty.GetTypedColumnValue<decimal>("AtnPriceUSD");
             if (price > 1000000000)
             {
                 e.IsCanceled = true;
 
                 string messageTemplate = new LocalizableString(realty.UserConnection.ResourceStorage, 
-                    "UsrRealtyEvents", "LocalizableStrings.ValueIsTooBig.Value").ToString();
-
+                    "AtnRealtyEvents", "LocalizableStrings.ValueIsTooBig.Value").ToString();
                 string message = string.Format(messageTemplate, "1.0B$");
                 throw new Exception(message);
             }
