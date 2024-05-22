@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "d29b0947-1a42-4574-858e-73c637c4f7f9",
+    "Name": "AtnAveragePriceOutputPage",
+    "ModifiedOnUtc": "\/Date(1716409218000)\/",
+    "Parent": {
+      "UId": "27e1b215-163a-4b82-b0a6-9872a8dde6e4",
+      "Name": "PageWithTopAreaAndTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Average Price Output Page"
+  }
+}

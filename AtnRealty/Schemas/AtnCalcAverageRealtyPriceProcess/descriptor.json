@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "25e82f69-50a2-4320-8406-02519331824d",
+    "Name": "AtnCalcAverageRealtyPriceProcess",
+    "ModifiedOnUtc": "\/Date(1716409788000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Calc average realty price",
+    "DependsOn": []
+  }
+}

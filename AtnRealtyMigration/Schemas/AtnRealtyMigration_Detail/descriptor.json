@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ea0bcf40-67e5-482f-8841-48993fae5b63",
+    "Name": "AtnRealtyMigration_Detail",
+    "ModifiedOnUtc": "\/Date(1716319100000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Realty Migration detail",
+    "DependsOn": []
+  }
+}

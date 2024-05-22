@@ -1,0 +1,23 @@
+﻿{
+  "Descriptor": {
+    "UId": "f3cf5a1c-7b23-4555-bf33-f69640e4aaed",
+    "Name": "AtnRealtyMigration",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1632313759000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/AtnRealtyMigration.csproj",
+    "DependsOn": [
+      {
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCore",
+        "Type": 1
+      },
+      {
+        "UId": "9167f60d-66b9-f4e9-354b-1db7ac06103a",
+        "Name": "DevClassic",
+        "Type": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "722d7023-7f1c-4c52-9078-de606cc08a91",
+    "Name": "AtnRealtyMigration_ListPage",
+    "ModifiedOnUtc": "\/Date(1716319221000)\/",
+    "Parent": {
+      "UId": "3334b6c0-c8ab-4b59-a367-0c9182102552",
+      "Name": "ListPageV2Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Realty Migration list page",
+    "DependsOn": []
+  }
+}

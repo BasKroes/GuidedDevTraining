@@ -62,8 +62,46 @@ define("AtnRealty_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"caption": "#ResourceString(PDS_AtnArea)#",
 							"dataValueType": 32
 						}
-					]
+					],
+					"selectionState": "$DataTable_SelectionState",
+					"_selectionOptions": {
+						"attribute": "DataTable_SelectionState"
+					},
+					"visible": true,
+					"fitContent": true
 				}
+			},
+			{
+				"operation": "insert",
+				"name": "Button_6lha0ks",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_6lha0ks_caption)#",
+					"color": "primary",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "only-text",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "AtnCalcAverageRealtyPriceProcess",
+							"processRunType": "ForTheSelectedRecords",
+							"showNotification": true,
+							"dataSourceName": "PDS",
+							"parameterMappings": {
+								"RealtyIdParameter": "Id"
+							},
+							"filters": "$Items | crt.ToCollectionFilters : 'Items' : $DataTable_SelectionState | crt.SkipIfSelectionEmpty : $DataTable_SelectionState",
+							"sorting": "$ItemsSorting",
+							"selectionStateAttributeName": "DataTable_SelectionState"
+						}
+					},
+					"clickMode": "default"
+				},
+				"parentName": "RightFilterContainer",
+				"propertyName": "items",
+				"index": 0
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[

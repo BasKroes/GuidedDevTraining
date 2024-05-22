@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/AtnRealtyMigration/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/AtnRealtyMigration/Data/**" />
+		<Compile Remove="$(PkgPath)/AtnRealtyMigration/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/AtnRealtyMigration/Schemas\**" />
+		<Compile Remove="$(PkgPath)/AtnRealtyMigration/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AtnRealtyMigration/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AtnRealtyMigration/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AtnRealtyMigration/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AtnRealtyMigration/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AtnRealtyMigration/Resources/**" />
+		<None Remove="$(PkgPath)/AtnRealtyMigration/Assemblies/**" />
+		<None Remove="$(PkgPath)/AtnRealtyMigration/Data/**" />
+		<None Remove="$(PkgPath)/AtnRealtyMigration/SqlScripts/**" />
+		<None Remove="$(PkgPath)/AtnRealtyMigration/Schemas/**" />
+		<None Remove="$(PkgPath)/AtnRealtyMigration/Resources/**" />
+  </ItemGroup>
+</Project>
