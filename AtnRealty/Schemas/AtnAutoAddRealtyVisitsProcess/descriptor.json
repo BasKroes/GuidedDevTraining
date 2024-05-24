@@ -4,6 +4,7 @@
     "Name": "AtnAutoAddRealtyVisitsProcess",
     "ModifiedOnUtc": "\/Date(1716411456000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Auto add realty visits process"
+    "Caption": "Auto add realty visits process",
+    "DependsOn": []
   }
 }

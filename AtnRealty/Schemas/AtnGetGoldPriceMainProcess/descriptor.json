@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "8342cd3e-e795-4c94-82d0-e56cf929e5e9",
+    "Name": "AtnGetGoldPriceMainProcess",
+    "ModifiedOnUtc": "\/Date(1716573679000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Get gold prices main process",
+    "DependsOn": []
+  }
+}

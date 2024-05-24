@@ -479,6 +479,7 @@
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
+		<Compile Remove="$(RelativePkgFolderPath)/AtnRealty/Schemas/AtnGoldPrice/AtnGoldPrice.cs" Condition="Exists('$(RelativePkgFolderPath)/AtnRealty/Schemas/AtnGoldPrice/AtnGoldPrice.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/AtnRealty/Schemas/AtnRealty/AtnRealty.cs" Condition="Exists('$(RelativePkgFolderPath)/AtnRealty/Schemas/AtnRealty/AtnRealty.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/AtnRealty/Schemas/AtnRealtyOfferType/AtnRealtyOfferType.cs" Condition="Exists('$(RelativePkgFolderPath)/AtnRealty/Schemas/AtnRealtyOfferType/AtnRealtyOfferType.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/AtnRealty/Schemas/AtnRealtyType/AtnRealtyType.cs" Condition="Exists('$(RelativePkgFolderPath)/AtnRealty/Schemas/AtnRealtyType/AtnRealtyType.cs')" />
